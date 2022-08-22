@@ -1,7 +1,6 @@
 "use strict";
 
-const category = "toys";
+const isChecked = true,
+  isClosed = false;
 
-console.log(`https://someurl.com/${category}/5`);
-
-console.log(5 % 2);
+console.log(isChecked || isClosed);
